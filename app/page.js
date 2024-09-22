@@ -1,5 +1,7 @@
-export default function Page(){
+export default function Page() {
   return (
-    <main>Hello World!</main>
-  )
+    <main>
+      <h1>Shopping List</h1>
+    </main>
+  );
 }
