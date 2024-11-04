@@ -3,7 +3,7 @@
 import { useState }  from "react";
 
 export default function NewItem() {
-    const [quantity, setQuantity] = useState(1);   // Initializing count to 
+    const [quantity, setQuantity] = useState(1);   // Initializing count to 1
     const [name, setName] = useState(""); // name field initially set to empty
     const [category, setCategory] = useState("produce");   // category field initially set to "Produce"
 
